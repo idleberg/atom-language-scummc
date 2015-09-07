@@ -1,0 +1,7 @@
+'.source.c.scumm':
+  'scummVars6.s':
+    'prefix': 'scummVars6'
+    'body': '#include <scummVars6.s>'
+  'scummVars7.s':
+      'prefix': 'scummVars7'
+      'body': '#include <scummVars7.s>'
