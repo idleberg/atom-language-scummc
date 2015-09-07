@@ -7,7 +7,7 @@
     "scumms",
     "lucasarts"
   ],
-  "repository": "https://github.com/atom/atom-language-scummc",
+  "repository": "https://github.com/idleberg/atom-language-scummc",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
