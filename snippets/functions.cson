@@ -1,0 +1,703 @@
+'.source.c.scumm':
+  'abs()':
+    'prefix': 'abs()'
+    'body': 'abs( ${1:val} )'
+  'actorFace()':
+    'prefix': 'actorFace()'
+    'body': 'actorFace( ${1:actor}, ${2:obj} )'
+  'actorFreeze()':
+    'prefix': 'actorFreeze()'
+    'body': 'actorFreeze()'
+  'actorNeverZClip()':
+    'prefix': 'actorNeverZClip()'
+    'body': 'actorNeverZClip()'
+  'actorSay()':
+    'prefix': 'actorSay()'
+    'body': 'actorSay( ${1:actor}, ${2:string} )'
+  'actorTurnToDirection()':
+    'prefix': 'actorTurnToDirection()'
+    'body': 'actorTurnToDirection( ${1:dir} )'
+  'actorUnfreeze()':
+    'prefix': 'actorUnfreeze()'
+    'body': 'actorUnfreeze()'
+  'animateActor()':
+    'prefix': 'animateActor()'
+    'body': 'animateActor( ${1:actor}, ${2:anim} )'
+  'breakScript()':
+    'prefix': 'breakScript()'
+    'body': 'breakScript()'
+  'breakXTimes()':
+    'prefix': 'breakXTimes()'
+    'body': 'breakXTimes( ${1:X} )'
+  'cameraFollowActor()':
+    'prefix': 'cameraFollowActor()'
+    'body': 'cameraFollowActor( ${1:actor} )'
+  'clearCharsetMask()':
+    'prefix': 'clearCharsetMask()'
+    'body': 'clearCharsetMask()'
+  'copyColor()':
+    'prefix': 'copyColor()'
+    'body': 'copyColor( ${1:src}, ${2:dst} )'
+  'createBoxMatrix()':
+    'prefix': 'createBoxMatrix()'
+    'body': 'createBoxMatrix()'
+  'cursorOff()':
+    'prefix': 'cursorOff()'
+    'body': 'cursorOff()'
+  'cursorOn()':
+    'prefix': 'cursorOn()'
+    'body': 'cursorOn()'
+  'delay()':
+    'prefix': 'delay()'
+    'body': 'delay( ${1:ticks} )'
+  'delayMinutes()':
+    'prefix': 'delayMinutes()'
+    'body': 'delayMinutes( ${1:min} )'
+  'delaySeconds()':
+    'prefix': 'delaySeconds()'
+    'body': 'delaySeconds( ${1:sec} )'
+  'deleteVerbs()':
+    'prefix': 'deleteVerbs()'
+    'body': 'deleteVerbs( ${1:fromVerb}, ${2:toVerb}, ${3:slot} )'
+  'doSentence()':
+    'prefix': 'doSentence()'
+    'body': 'doSentence( ${1:verb}, ${2:objA}, ${3:dummy}, ${4:objB})'
+  'drawBox()':
+    'prefix': 'drawBox()'
+    'body': 'drawBox( ${1:x1}, ${2:y1}, ${3:x2}, ${4:y2}, ${5:color} )'
+  'drawObject()':
+    'prefix': 'drawObject()'
+    'body': 'drawObject( ${1:obj}, ${2:state} )'
+  'drawObjectAt()':
+    'prefix': 'drawObjectAt()'
+    'body': 'drawObjectAt( ${1:obj}, ${2:x}, ${3:y} )'
+  'egoSay()':
+    'prefix': 'egoSay()'
+    'body': 'egoSay( ${1:string} )'
+  'enqueueObject()':
+    'prefix': 'enqueueObject()'
+    'body': 'enqueueObject( ${1:obj}, ${2:x}, ${3:y}, ${4:w}, ${5:h}, ${6:scaleX}, ${7:scaleY}, ${8:image} )'
+  'fadeIn()':
+    'prefix': 'fadeIn()'
+    'body': 'fadeIn( ${1:effect} )'
+  'fadeOut()':
+    'prefix': 'fadeOut()'
+    'body': 'fadeOut( ${1:effect} )'
+  'findInventory()':
+    'prefix': 'findInventory()'
+    'body': 'findInventory( ${1:owner}, ${2:idx} )'
+  'freezeUnfreeze()':
+    'prefix': 'freezeUnfreeze()'
+    'body': 'freezeUnfreeze( a )'
+  'getActorAnimCounter1()':
+    'prefix': 'getActorAnimCounter1()'
+    'body': 'getActorAnimCounter1( ${1:actor} )'
+  'getActorAnimVar()':
+    'prefix': 'getActorAnimVar()'
+    'body': 'getActorAnimVar( ${1:actor}, ${2:var} )'
+  'getActorAt()':
+    'prefix': 'getActorAt()'
+    'body': 'getActorAt( ${1:x}, ${2:y} )'
+  'getActorCostume()':
+    'prefix': 'getActorCostume()'
+    'body': 'getActorCostume( ${1:actor} )'
+  'getActorElevation()':
+    'prefix': 'getActorElevation()'
+    'body': 'getActorElevation( ${1:actor} )'
+  'getActorFrame()':
+    'prefix': 'getActorFrame()'
+    'body': 'getActorFrame( ${1:actor} )'
+  'getActorLayer()':
+    'prefix': 'getActorLayer()'
+    'body': 'getActorLayer( ${1:actor} )'
+  'getActorRoom()':
+    'prefix': 'getActorRoom()'
+    'body': 'getActorRoom( ${1:actor} )'
+  'getActorWalkBox()':
+    'prefix': 'getActorWalkBox()'
+    'body': 'getActorWalkBox( ${1:actor} )'
+  'getActorWidth()':
+    'prefix': 'getActorWidth()'
+    'body': 'getActorWidth( ${1:actor} )'
+  'getActorXScale()':
+    'prefix': 'getActorXScale()'
+    'body': 'getActorXScale( ${1:actor} )'
+  'getBoxFlags()':
+    'prefix': 'getBoxFlags()'
+    'body': 'getBoxFlags( ${1:box} )'
+  'getColor()':
+    'prefix': 'getColor()'
+    'body': 'getColor( ${1:r}, ${2:g}, ${3:b} )'
+  'getDateTime()':
+    'prefix': 'getDateTime()'
+    'body': 'getDateTime()'
+  'getDistObjObj()':
+    'prefix': 'getDistObjObj()'
+    'body': 'getDistObjObj( ${1:objA}, ${2:objB} )'
+  'getDistObjPt()':
+    'prefix': 'getDistObjPt()'
+    'body': 'getDistObjPt( ${1:obj}, ${2:x}, ${3:y} )'
+  'getDistPtPt()':
+    'prefix': 'getDistPtPt()'
+    'body': 'getDistPtPt( ${1:x1}, ${2:y1}, ${3:x2}, ${4:y2} )'
+  'getInventoryCount()':
+    'prefix': 'getInventoryCount()'
+    'body': 'getInventoryCount( ${1:owner} )'
+  'getKeyState()':
+    'prefix': 'getKeyState()'
+    'body': 'getKeyState( ${1:key} )'
+  'getObjectAt()':
+    'prefix': 'getObjectAt()'
+    'body': 'getObjectAt( ${1:x}, ${2:y} )'
+  'getObjectDir()':
+    'prefix': 'getObjectDir()'
+    'body': 'getObjectDir( ${1:obj} )'
+  'getObjectNewDir()':
+    'prefix': 'getObjectNewDir()'
+    'body': 'getObjectNewDir( ${1:obj} )'
+  'getObjectOwner()':
+    'prefix': 'getObjectOwner()'
+    'body': 'getObjectOwner( ${1:obj} )'
+  'getObjectState()':
+    'prefix': 'getObjectState()'
+    'body': 'getObjectState( ${1:obj} )'
+  'getObjectVerbEntrypoint()':
+    'prefix': 'getObjectVerbEntrypoint()'
+    'body': 'getObjectVerbEntrypoint( ${1:obj}, ${2:verb} )'
+  'getObjectX()':
+    'prefix': 'getObjectX()'
+    'body': 'getObjectX( ${1:obj} )'
+  'getObjectY()':
+    'prefix': 'getObjectY()'
+    'body': 'getObjectY( ${1:obj} )'
+  'getPixel()':
+    'prefix': 'getPixel()'
+    'body': 'getPixel( ${1:x}, ${2:y} )'
+  'getRandomNumber()':
+    'prefix': 'getRandomNumber()'
+    'body': 'getRandomNumber( ${1:max} )'
+  'getRandomNumberRange()':
+    'prefix': 'getRandomNumberRange()'
+    'body': 'getRandomNumberRange( ${1:min}, ${2:max} )'
+  'getRoomObjectHeight()':
+    'prefix': 'getRoomObjectHeight()'
+    'body': 'getRoomObjectHeight( ${1:obj} )'
+  'getRoomObjects()':
+    'prefix': 'getRoomObjects()'
+    'body': 'getRoomObjects( ${1:room} )'
+  'getRoomObjectWidth()':
+    'prefix': 'getRoomObjectWidth()'
+    'body': 'getRoomObjectWidth( ${1:obj} )'
+  'getRoomObjectX()':
+    'prefix': 'getRoomObjectX()'
+    'body': 'getRoomObjectX( ${1:obj} )'
+  'getRoomObjectY()':
+    'prefix': 'getRoomObjectY()'
+    'body': 'getRoomObjectY( ${1:obj} )'
+  'getSpecialBox()':
+    'prefix': 'getSpecialBox()'
+    'body': 'getSpecialBox( ${1:x}, ${2:y} )'
+  'getVerbAt()':
+    'prefix': 'getVerbAt()'
+    'body': 'getVerbAt( ${1:x}, ${2:y} )'
+  'getVerbX()':
+    'prefix': 'getVerbX()'
+    'body': 'getVerbX( ${1:verb} )'
+  'getVerbY()':
+    'prefix': 'getVerbY()'
+    'body': 'getVerbY( ${1:verb} )'
+  'grabCursor( x, y, w, h )':
+    'prefix': 'grabCursor( x, y, w, h )'
+    'body': 'grabCursor( ${1:x}, ${2:y}, ${3:w}, ${4:h} )'
+  'initActor()':
+    'prefix': 'initActor()'
+    'body': 'initActor()'
+  'initActorQuick()':
+    'prefix': 'initActorQuick()'
+    'body': 'initActorQuick()'
+  'initCharset( chset )':
+    'prefix': 'initCharset( chset )'
+    'body': 'initCharset( ${1:chset} )'
+  'initVerb()':
+    'prefix': 'initVerb()'
+    'body': 'initVerb()'
+  'isActorInBox()':
+    'prefix': 'isActorInBox()'
+    'body': 'isActorInBox( ${1:actor}, ${2:box} )'
+  'isActorMoving()':
+    'prefix': 'isActorMoving()'
+    'body': 'isActorMoving( ${1:actor} )'
+  'isAnyOf()':
+    'prefix': 'isAnyOf()'
+    'body': 'isAnyOf( ${1:val}, ${2:[ ${3:list} ]} )'
+  'isInBox()':
+    'prefix': 'isInBox()'
+    'body': 'isInBox( ${1:x}, ${2:y}, ${3:box} )'
+  'isObjectOfClass()':
+    'prefix': 'isObjectOfClass()'
+    'body': 'isObjectOfClass( ${1:obj}, ${2:[ 3{:classes} ]} )'
+  'isRoomScriptRunning()':
+    'prefix': 'isRoomScriptRunning()'
+    'body': 'isRoomScriptRunning( ${1:obj} )'
+  'isScriptRunning()':
+    'prefix': 'isScriptRunning()'
+    'body': 'isScriptRunning( ${1:script} )'
+  'isSoundRunning()':
+    'prefix': 'isSoundRunning()'
+    'body': 'isSoundRunning( ${1:sound} )'
+  'jumpToScript()':
+    'prefix': 'jumpToScript()'
+    'body': 'jumpToScript( ${1:flags}, ${2:script}, ${3:[ ${4:args} ]} )'
+  'killAllScriptsExceptCurrent()':
+    'prefix': 'killAllScriptsExceptCurrent()'
+    'body': 'killAllScriptsExceptCurrent()'
+  'killVerb()':
+    'prefix': 'killVerb()'
+    'body': 'killVerb()'
+  'loadCharset()':
+    'prefix': 'loadCharset()'
+    'body': 'loadCharset( ${1:chset})'
+  'loadCostume()':
+    'prefix': 'loadCostume()'
+    'body': 'loadCostume( ${1:cost} )'
+  'loadFlObject()':
+    'prefix': 'loadFlObject()'
+    'body': 'loadFlObject( ${1:obj}, ${2:room} )'
+  'loadRoom()':
+    'prefix': 'loadRoom()'
+    'body': 'loadRoom( ${1:room} )'
+  'loadScript()':
+    'prefix': 'loadScript()'
+    'body': 'loadScript( ${1:script} )'
+  'loadSound()':
+    'prefix': 'loadSound()'
+    'body': 'loadSound( ${1:sound} )'
+  'lockCostume()':
+    'prefix': 'lockCostume()'
+    'body': 'lockCostume( ${1:cost} )'
+  'lockRoom()':
+    'prefix': 'lockRoom()'
+    'body': 'lockRoom( ${1:room} )'
+  'lockScript()':
+    'prefix': 'lockScript()'
+    'body': 'lockScript( ${1:script} )'
+  'lockSound()':
+    'prefix': 'lockSound()'
+    'body': 'lockSound( ${1:sound} )'
+  'nukeCharset()':
+    'prefix': 'nukeCharset()'
+    'body': 'nukeCharset( ${1:chset} )'
+  'nukeCostume()':
+    'prefix': 'nukeCostume()'
+    'body': 'nukeCostume( ${1:cost} )'
+  'nukeFlObjects()':
+    'prefix': 'nukeFlObjects()'
+    'body': 'nukeFlObjects( ${1:unk}, ${2:first}, ${3:last} )'
+  'nukeRoom()':
+    'prefix': 'nukeRoom()'
+    'body': 'nukeRoom( ${1:room} )'
+  'nukeScript()':
+    'prefix': 'nukeScript()'
+    'body': 'nukeScript( ${1:script} )'
+  'nukeSound()':
+    'prefix': 'nukeSound()'
+    'body': 'nukeSound( ${1:sound} )'
+  'panCameraTo()':
+    'prefix': 'panCameraTo()'
+    'body': 'panCameraTo( ${1:x} )'
+  'pauseGame()':
+    'prefix': 'pauseGame()'
+    'body': 'pauseGame()'
+  'pickOneOf()':
+    'prefix': 'pickOneOf()'
+    'body': 'pickOneOf( ${1:idx}, ${2:[ ${3:list} ]} )'
+  'pickOneOfDefault()':
+    'prefix': 'pickOneOfDefault()'
+    'body': 'pickOneOfDefault( ${1:idx}, ${2:[ ${3:list} ]}, ${4:default} )'
+  'pickupObject()':
+    'prefix': 'pickupObject()'
+    'body': 'pickupObject( ${1:obj}, ${2:room} )'
+  'print()':
+    'prefix': 'print()'
+    'body': 'print( ${1:string} )'
+  'printAt()':
+    'prefix': 'printAt()'
+    'body': 'printAt( ${1:x}, ${2:y} )'
+  'printBegin()':
+    'prefix': 'printBegin()'
+    'body': 'printBegin()'
+  'printCenter()':
+    'prefix': 'printCenter()'
+    'body': 'printCenter()'
+  'printClipped()':
+    'prefix': 'printClipped()'
+    'body': 'printClipped( ${1:right} )'
+  'printColor()':
+    'prefix': 'printColor()'
+    'body': 'printColor( ${1:color} )'
+  'printEnd()':
+    'prefix': 'printEnd()'
+    'body': 'printEnd()'
+  'printLeft()':
+    'prefix': 'printLeft()'
+    'body': 'printLeft()'
+  'printMumble()':
+    'prefix': 'printMumble()'
+    'body': 'printMumble()'
+  'printOverhead()':
+    'prefix': 'printOverhead()'
+    'body': 'printOverhead()'
+  'putActorAt()':
+    'prefix': 'putActorAt()'
+    'body': 'putActorAt( ${1:actor}, ${2:x}, ${3:y}, ${4:room} )'
+  'putActorAtObject()':
+    'prefix': 'putActorAtObject()'
+    'body': 'putActorAtObject( ${1:actor}, ${2:obj}, ${3:room} )'
+  'redrawVerb()':
+    'prefix': 'redrawVerb()'
+    'body': 'redrawVerb()'
+  'restartGame()':
+    'prefix': 'restartGame()'
+    'body': 'restartGame()'
+  'restoreVerbs()':
+    'prefix': 'restoreVerbs()'
+    'body': 'restoreVerbs( ${1:fromVerb}, ${2:toVerb}, ${3:slot})'
+  'roomPalManipulate()':
+    'prefix': 'roomPalManipulate()'
+    'body': 'roomPalManipulate( ${1:resID}, ${2:start}, ${3:end}, ${4:time} )'
+  'saveLoadThing()':
+    'prefix': 'saveLoadThing()'
+    'body': 'saveLoadThing( ${1:a}, ${2:b} )'
+  'saveSound()':
+    'prefix': 'saveSound()'
+    'body': 'saveSound( ${1:sound} )'
+  'saveVerbs()':
+    'prefix': 'saveVerbs()'
+    'body': 'saveVerbs( ${1:fromVerb}, ${2:toVerb}, ${3:slot} )'
+  'screenEffect()':
+    'prefix': 'screenEffect()'
+    'body': 'screenEffect( ${1:effect} )'
+  'setActorAnimSpeed()':
+    'prefix': 'setActorAnimSpeed()'
+    'body': 'setActorAnimSpeed( ${1:speed} )'
+  'setActorAnimVar()':
+    'prefix': 'setActorAnimVar()'
+    'body': 'setActorAnimVar( ${1:actor}, ${2:var} )'
+  'setActorCostume()':
+    'prefix': 'setActorCostume()'
+    'body': 'setActorCostume( ${1:cost} )'
+  'setActorDefaultFrames()':
+    'prefix': 'setActorDefaultFrames()'
+    'body': 'setActorDefaultFrames()'
+  'setActorDirection()':
+    'prefix': 'setActorDirection()'
+    'body': 'setActorDirection( ${1:dir} )'
+  'setActorElevation()':
+    'prefix': 'setActorElevation()'
+    'body': 'setActorElevation( ${1:ev} )'
+  'setActorFollowBoxes()':
+    'prefix': 'setActorFollowBoxes()'
+    'body': 'setActorFollowBoxes()'
+  'setActorIgnoreBoxes()':
+    'prefix': 'setActorIgnoreBoxes()'
+    'body': 'setActorIgnoreBoxes()'
+  'setActorIgnoreTurnsOff()':
+    'prefix': 'setActorIgnoreTurnsOff()'
+    'body': 'setActorIgnoreTurnsOff()'
+  'setActorIgnoreTurnsOn()':
+    'prefix': 'setActorIgnoreTurnsOn()'
+    'body': 'setActorIgnoreTurnsOn()'
+  'setActorInitFrame()':
+    'prefix': 'setActorInitFrame()'
+    'body': 'setActorInitFrame( ${1:frame} )'
+  'setActorLayer()':
+    'prefix': 'setActorLayer()'
+    'body': 'setActorLayer( ${1:layer} )'
+  'setActorName()':
+    'prefix': 'setActorName()'
+    'body': 'setActorName( ${1:name} )'
+  'setActorPalette()':
+    'prefix': 'setActorPalette()'
+    'body': 'setActorPalette( ${1:pal}, ${2:b} )'
+  'setActorScale()':
+    'prefix': 'setActorScale()'
+    'body': 'setActorScale( ${1:a} )'
+  'setActorScale()':
+    'prefix': 'setActorScale()'
+    'body': 'setActorScale( ${1:unk}, ${2:x} )'
+  'setActorShadowMode( )':
+    'prefix': 'setActorShadowMode( )'
+    'body': 'setActorShadowMode( ${3:mode} )'
+  'setActorShadowMode()':
+    'prefix': 'setActorShadowMode()'
+    'body': 'setActorShadowMode( ${1:actor}, ${2:modeA}, ${3:modeB} )'
+  'setActorSounds()':
+    'prefix': 'setActorSounds()'
+    'body': 'setActorSounds( ${1:[ ${2:sounds} ]} )'
+  'setActorStandFrame()':
+    'prefix': 'setActorStandFrame()'
+    'body': 'setActorStandFrame( ${1:frame} )'
+  'setActorStanding()':
+    'prefix': 'setActorStanding()'
+    'body': 'setActorStanding()'
+  'setActorTalkColor()':
+    'prefix': 'setActorTalkColor()'
+    'body': 'setActorTalkColor( ${1:color} )'
+  'setActorTalkFrame()':
+    'prefix': 'setActorTalkFrame()'
+    'body': 'setActorTalkFrame( ${1:start}, ${2:stop} )'
+  'setActorTalkPos()':
+    'prefix': 'setActorTalkPos()'
+    'body': 'setActorTalkPos( ${1:x}, ${2:y} )'
+  'setActorTalkScript()':
+    'prefix': 'setActorTalkScript()'
+    'body': 'setActorTalkScript( ${1:script} )'
+  'setActorWalkFrame()':
+    'prefix': 'setActorWalkFrame()'
+    'body': 'setActorWalkFrame( ${1:frame} )'
+  'setActorWalkScript()':
+    'prefix': 'setActorWalkScript()'
+    'body': 'setActorWalkScript( ${1:script} )'
+  'setActorWalkSpeed()':
+    'prefix': 'setActorWalkSpeed()'
+    'body': 'setActorWalkSpeed( ${1:x}, ${2:y} )'
+  'setActorWidth()':
+    'prefix': 'setActorWidth()'
+    'body': 'setActorWidth( ${1:width} )'
+  'setActorZClip()':
+    'prefix': 'setActorZClip()'
+    'body': 'setActorZClip( ${1:clip} )'
+  'setBoxFlags()':
+    'prefix': 'setBoxFlags()'
+    'body': 'setBoxFlags( ${1:[ ${2:boxes} ]}, ${3:flags} )'
+  'setBoxSet()':
+    'prefix': 'setBoxSet()'
+    'body': 'setBoxSet( ${1:set} )'
+  'setCameraAt()':
+    'prefix': 'setCameraAt()'
+    'body': 'setCameraAt( ${1:x} )'
+  'setCharsetColors()':
+    'prefix': 'setCharsetColors()'
+    'body': 'setCharsetColors( ${1:[ ${2:colors} ]} )'
+  'setCurrentActor()':
+    'prefix': 'setCurrentActor()'
+    'body': 'setCurrentActor( ${1:actor} )'
+  'setCurrentVerb()':
+    'prefix': 'setCurrentVerb()'
+    'body': 'setCurrentVerb( ${1:verb} )'
+  'setCursorHotspot()':
+    'prefix': 'setCursorHotspot()'
+    'body': 'setCursorHotspot( ${1:x}, ${2:y} )'
+  'setCursorImage()':
+    'prefix': 'setCursorImage()'
+    'body': 'setCursorImage( ${1:obj}, ${2:room} )'
+  'setCursorTransparency()':
+    'prefix': 'setCursorTransparency()'
+    'body': 'setCursorTransparency( ${1:color} )'
+  'setObjectClass()':
+    'prefix': 'setObjectClass()'
+    'body': 'setObjectClass( ${1:obj}, ${2:[ ${3:classes} ]} )'
+  'setObjectName()':
+    'prefix': 'setObjectName()'
+    'body': 'setObjectName( ${1:obj}, ${2:name} )'
+  'setObjectOwner()':
+    'prefix': 'setObjectOwner()'
+    'body': 'setObjectOwner( ${1:obj}, ${2:owner} )'
+  'setObjectState()':
+    'prefix': 'setObjectState()'
+    'body': 'setObjectState( ${1:obj}, ${2:state} )'
+  'setPseudoRooms()':
+    'prefix': 'setPseudoRooms()'
+    'body': 'setPseudoRooms( ${1:room}, ${2:[ ${3:pseudos} ]} )'
+  'setRoomColor()':
+    'prefix': 'setRoomColor()'
+    'body': 'setRoomColor( ${1:r} ,${2:g} ,${3:b} ,${4:color} )'
+  'setRoomCycleDelay()':
+    'prefix': 'setRoomCycleDelay()'
+    'body': 'setRoomCycleDelay( ${1:cycle}, ${2:delay} )'
+  'setRoomIntensity()':
+    'prefix': 'setRoomIntensity()'
+    'body': 'setRoomIntensity( ${1:scale}, ${2:start}, ${3:end} )'
+  'setRoomPalette()':
+    'prefix': 'setRoomPalette()'
+    'body': 'setRoomPalette( ${1:palette} )'
+  'setRoomRGBIntensity()':
+    'prefix': 'setRoomRGBIntensity()'
+    'body': 'setRoomRGBIntensity( ${1:rScale}, ${2:gScale}, ${3:bScale}, ${4:start}, ${5:end} )'
+  'setRoomScroll()':
+    'prefix': 'setRoomScroll()'
+    'body': 'setRoomScroll( ${1:minx}, ${2:maxx} )'
+  'setRoomShadow()':
+    'prefix': 'setRoomShadow()'
+    'body': 'setRoomShadow( ${1:rScale}, ${2:gScale}, ${3:bScale}, ${4:start}, ${5:end} )'
+  'setScreen()':
+    'prefix': 'setScreen()'
+    'body': 'setScreen( ${1:top}, ${2:bottom} )'
+  'setShadowPalette()':
+    'prefix': 'setShadowPalette()'
+    'body': 'setShadowPalette( ${1.startColor}, ${2:endColor}, ${3:rScale}, ${4:gScale}, ${5:bScale} )'
+  'setShakeOff()':
+    'prefix': 'setShakeOff()'
+    'body': 'setShakeOff()'
+  'setShakeOn()':
+    'prefix': 'setShakeOn()'
+    'body': 'setShakeOn()'
+  'setVerbBackColor()':
+    'prefix': 'setVerbBackColor()'
+    'body': 'setVerbBackColor( ${1:color} )'
+  'setVerbColor()':
+    'prefix': 'setVerbColor()'
+    'body': 'setVerbColor( ${1:color} )'
+  'setVerbDimColor()':
+    'prefix': 'setVerbDimColor()'
+    'body': 'setVerbDimColor( ${1:color} )'
+  'setVerbHiColor()':
+    'prefix': 'setVerbHiColor()'
+    'body': 'setVerbHiColor( ${1:color} )'
+  'setVerbImage()':
+    'prefix': 'setVerbImage()'
+    'body': 'setVerbImage( ${1:obj} )'
+  'setVerbKey()':
+    'prefix': 'setVerbKey()'
+    'body': 'setVerbKey( ${1:key} )'
+  'setVerbName()':
+    'prefix': 'setVerbName()'
+    'body': 'setVerbName( ${1:name} )'
+  'setVerbNameString()':
+    'prefix': 'setVerbNameString()'
+    'body': 'setVerbNameString( ${1:array} )'
+  'setVerbObject()':
+    'prefix': 'setVerbObject()'
+    'body': 'setVerbObject( ${1:obj}, ${2:room} )'
+  'setVerbOff()':
+    'prefix': 'setVerbOff()'
+    'body': 'setVerbOff()'
+  'setVerbOn()':
+    'prefix': 'setVerbOn()'
+    'body': 'setVerbOn()'
+  'setVerbXY()':
+    'prefix': 'setVerbXY()'
+    'body': 'setVerbXY( ${1:x}, ${2:y} )'
+  'shiftShadowPalette()':
+    'prefix': 'shiftShadowPalette()'
+    'body': 'shiftShadowPalette( ${1:startColor}, ${2:endColor}, ${3:rScale}, ${4:gScale}, ${5:bScale}, ${6:start}, ${7:end} )'
+  'shuffle()':
+    'prefix': 'shuffle()'
+    'body': 'shuffle( ${1:array}, ${2:min}, ${3:max} )'
+  'shutdown()':
+    'prefix': 'shutdown()'
+    'body': 'shutdown()'
+  'softCursorOff()':
+    'prefix': 'softCursorOff()'
+    'body': 'softCursorOff()'
+  'softCursorOn()':
+    'prefix': 'softCursorOn()'
+    'body': 'softCursorOn()'
+  'softUserPutOff()':
+    'prefix': 'softUserPutOff()'
+    'body': 'softUserPutOff()'
+  'softUserPutOn()':
+    'prefix': 'softUserPutOn()'
+    'body': 'softUserPutOn()'
+  'soundKludge()':
+    'prefix': 'soundKludge()'
+    'body': 'soundKludge( ${1:[ ${2:cmds} ]} )'
+  'stampObject()':
+    'prefix': 'stampObject()'
+    'body': 'stampObject( ${1:obj}, ${2:x}, ${3:y}, ${4:state} )'
+  'startMusic()':
+    'prefix': 'startMusic()'
+    'body': 'startMusic( ${1:sound} )'
+  'startObject()':
+    'prefix': 'startObject()'
+    'body': 'startObject( ${1:flags}, ${2:obj}, ${3:verb}, ${4:[ ${5:args} ]} )'
+  'startObject2()':
+    'prefix': 'startObject2()'
+    'body': 'startObject2( ${1:obj}, ${2:verb}, ${3:[ ${4:args} ]} )'
+  'startRoom()':
+    'prefix': 'startRoom()'
+    'body': 'startRoom( ${1:room} )'
+  'startRoomWithEgo()':
+    'prefix': 'startRoomWithEgo()'
+    'body': 'startRoomWithEgo( ${1:obj}, ${2:room}, ${3:x}, ${4:y} )'
+  'startScript()':
+    'prefix': 'startScript()'
+    'body': 'startScript( ${1:flags}, ${2:script}, ${3:[ ${4:args} ]} )'
+  'startScript0()':
+    'prefix': 'startScript0()'
+    'body': 'startScript0( ${1:script}, ${2:[ ${3:args} ]} )'
+  'startScript2()':
+    'prefix': 'startScript2()'
+    'body': 'startScript2( ${1:script}, ${2:[ ${3:args} ]} )'
+  'startSound()':
+    'prefix': 'startSound()'
+    'body': 'startSound( ${1:sound} )'
+  'stopMusic()':
+    'prefix': 'stopMusic()'
+    'body': 'stopMusic()'
+  'stopObjectScript()':
+    'prefix': 'stopObjectScript()'
+    'body': 'stopObjectScript( ${1:obj} )'
+  'stopScript()':
+    'prefix': 'stopScript()'
+    'body': 'stopScript( ${1:script} )'
+  'stopSentence()':
+    'prefix': 'stopSentence()'
+    'body': 'stopSentence()'
+  'stopSound()':
+    'prefix': 'stopSound()'
+    'body': 'stopSound( ${1:sound} )'
+  'stopTalking()':
+    'prefix': 'stopTalking()'
+    'body': 'stopTalking()'
+  'swapColors()':
+    'prefix': 'swapColors()'
+    'body': 'swapColors( ${1:colorA}, ${2:colorB} )'
+  'unlockCostume()':
+    'prefix': 'unlockCostume()'
+    'body': 'unlockCostume( ${1:cost} )'
+  'unlockRoom()':
+    'prefix': 'unlockRoom()'
+    'body': 'unlockRoom( ${1:room} )'
+  'unlockScript()':
+    'prefix': 'unlockScript()'
+    'body': 'unlockScript( ${1:script} )'
+  'unlockSound()':
+    'prefix': 'unlockSound()'
+    'body': 'unlockSound( ${1:sound} )'
+  'userPutOff()':
+    'prefix': 'userPutOff()'
+    'body': 'userPutOff()'
+  'userPutOn()':
+    'prefix': 'userPutOn()'
+    'body': 'userPutOn()'
+  'verbCenter()':
+    'prefix': 'verbCenter()'
+    'body': 'verbCenter()'
+  'verbDim()':
+    'prefix': 'verbDim()'
+    'body': 'verbDim()'
+  'waitForActor()':
+    'prefix': 'waitForActor()'
+    'body': 'waitForActor( ${1:actor} )'
+  'waitForAnimation()':
+    'prefix': 'waitForAnimation()'
+    'body': 'waitForAnimation( ${1:actor} )'
+  'waitForCamera()':
+    'prefix': 'waitForCamera()'
+    'body': 'waitForCamera()'
+  'waitForMessage()':
+    'prefix': 'waitForMessage()'
+    'body': 'waitForMessage()'
+  'waitForSentence()':
+    'prefix': 'waitForSentence()'
+    'body': 'waitForSentence()'
+  'waitForTurn()':
+    'prefix': 'waitForTurn()'
+    'body': 'waitForTurn( ${1:actor} )'
+  'walkActorTo()':
+    'prefix': 'walkActorTo()'
+    'body': 'walkActorTo( ${1:actor}, ${2:x}, ${3:y} )'
+  'walkActorToObj()':
+    'prefix': 'walkActorToObj()'
+    'body': 'walkActorToObj( ${1:actor}, ${2:object}, ${3:distance} )'

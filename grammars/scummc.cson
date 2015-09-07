@@ -1,0 +1,12 @@
+fileTypes: [
+  "scc"
+  "sch"
+]
+name: "ScummC"
+comment: "https://github.com/atom/atom-language-scummc"
+patterns: [
+  {
+    include: "source.c"
+  }
+]
+scopeName: "source.c.scumm"
