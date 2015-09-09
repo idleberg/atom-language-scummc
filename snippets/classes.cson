@@ -1,0 +1,22 @@
+'.source.c.scumm':
+  'ClassAlwaysClip':
+    'prefix': 'ClassAlwaysClip'
+    'body': 'ClassAlwaysClip'
+  'ClassIgnoreBoxes':
+    'prefix': 'ClassIgnoreBoxes'
+    'body': 'ClassIgnoreBoxes'
+  'ClassNeverClip':
+    'prefix': 'ClassNeverClip'
+    'body': 'ClassNeverClip'
+  'ClassPlayer':
+    'prefix': 'ClassPlayer'
+    'body': 'ClassPlayer'
+  'ClassUntouchable':
+    'prefix': 'ClassUntouchable'
+    'body': 'ClassUntouchable'
+  'ClassXFlip':
+    'prefix': 'ClassXFlip'
+    'body': 'ClassXFlip'
+  'ClassYFlip':
+    'prefix': 'ClassYFlip'
+    'body': 'ClassYFlip'
