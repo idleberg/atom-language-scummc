@@ -1,0 +1,4 @@
+'.source.c.scumm':
+  'move':
+    'prefix': 'move'
+    'body': 'move = { ${1:x}, ${2:y} }'

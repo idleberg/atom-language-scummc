@@ -1,0 +1,8 @@
+'.source.c.scumm':
+  'anim':
+    'prefix': 'anim'
+    'body': """
+      anim ${1:name} {
+          ${2:// your code here}
+      }
+    """

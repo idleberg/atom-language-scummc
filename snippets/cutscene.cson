@@ -1,0 +1,8 @@
+'.source.c.scumm':
+  'cutscene':
+    'prefix': 'cutscene'
+    'body': """
+      cutscene ( ${1:/* args */} ) {
+          ${2:// your code here}
+      }
+    """

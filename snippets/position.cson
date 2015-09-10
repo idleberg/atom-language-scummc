@@ -1,0 +1,4 @@
+'.source.c.scumm':
+  'position':
+    'prefix': 'position'
+    'body': 'position = { ${1:x}, ${2:y} }'

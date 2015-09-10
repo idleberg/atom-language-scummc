@@ -1,0 +1,8 @@
+'.source.c.scumm':
+  'picture':
+    'prefix': 'picture'
+    'body': """
+      picture ${1:name} {
+          ${2:// picture_params}
+      }
+    """
