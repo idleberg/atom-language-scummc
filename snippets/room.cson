@@ -1,8 +1,0 @@
-'.source.c.scumm':
-  'room':
-    'prefix': 'room'
-    'body': """
-      room ${1:name} {
-          ${2:// room_declarations}
-      }
-    """

@@ -1,8 +1,0 @@
-'.source.c.scumm':
-  'limb':
-    'prefix': 'limb'
-    'body': """
-      limb ${1:name} {
-          ${2:// picture_list}
-      }
-    """

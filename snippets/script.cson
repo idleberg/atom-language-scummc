@@ -1,8 +1,0 @@
-'.source.c.scumm':
-  'script':
-    'prefix': 'script'
-    'body': """
-      ${1:local|global} script ${2:name}${3:( ${4:/* args */} )} {
-          ${5:// your code here}
-      }
-    """

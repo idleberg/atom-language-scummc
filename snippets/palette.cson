@@ -1,4 +1,0 @@
-'.source.c.scumm':
-  'palette':
-    'prefix': 'palette'
-    'body': 'palette ( ${1:INTLIST} )'

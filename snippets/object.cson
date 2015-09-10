@@ -1,8 +1,0 @@
-'.source.c.scumm':
-  'object':
-    'prefix': 'object'
-    'body': """
-      object ${1:name} {
-          ${2:// object_properties}
-      }
-    """
