@@ -16,7 +16,7 @@ Atom language support for [ScummC](https://github.com/AlbanBedel/scummc) functio
 ### GitHub
 
 1. Change directory to `~/.atom/packages/`
-2. Clone repository `git clone https://github.com/idleberg/atom-language-scummc.git language-scummc`
+2. Clone repository `git clone https://github.com/idleberg/atom-language-scummc language-scummc`
 
 ## License
 
