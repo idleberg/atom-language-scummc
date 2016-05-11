@@ -1,13 +1,13 @@
 '.source.c.scumm':
   'scummVars6.s':
     'prefix': 'include scummVars6'
-    'body': '#include <scummVars6.s>'
+    'body': '#include <scummVars6.s>$1'
   'scummVars7.s':
       'prefix': 'include scummVars7'
-      'body': '#include <scummVars7.s>'
+      'body': '#include <scummVars7.s>$1'
   'include scummVars6.s':
     'prefix': 'scummVars6'
-    'body': '#include <scummVars6.s>'
+    'body': '#include <scummVars6.s>$1'
   'include scummVars7.s':
       'prefix': 'scummVars7'
-      'body': '#include <scummVars7.s>'
+      'body': '#include <scummVars7.s>$1'

@@ -1,196 +1,187 @@
-'.source.c.scumm':
-  'IM_BEAT_INDEX':
-    'prefix': 'IM_BEAT_INDEX'
-    'body': 'IM_BEAT_INDEX'
-  'IM_CLEAR_TRIGGER':
-    'prefix': 'IM_CLEAR_TRIGGER'
-    'body': 'IM_CLEAR_TRIGGER'
-  'IM_DETUNE':
-    'prefix': 'IM_DETUNE'
-    'body': 'IM_DETUNE'
-  'IM_FADE_SOUND':
-    'prefix': 'IM_FADE_SOUND'
-    'body': 'IM_FADE_SOUND'
-  'IM_GET_MASTER_VOLUME':
-    'prefix': 'IM_GET_MASTER_VOLUME'
-    'body': 'IM_GET_MASTER_VOLUME'
-  'IM_GET_SOUND_STATUS':
-    'prefix': 'IM_GET_SOUND_STATUS'
-    'body': 'IM_GET_SOUND_STATUS'
-  'IM_HOOK_JUMP':
-    'prefix': 'IM_HOOK_JUMP'
-    'body': 'IM_HOOK_JUMP'
-  'IM_HOOK_PART_ON_OFF':
-    'prefix': 'IM_HOOK_PART_ON_OFF'
-    'body': 'IM_HOOK_PART_ON_OFF'
-  'IM_HOOK_PART_PROGRAM':
-    'prefix': 'IM_HOOK_PART_PROGRAM'
-    'body': 'IM_HOOK_PART_PROGRAM'
-  'IM_HOOK_PART_TRANSPOSE':
-    'prefix': 'IM_HOOK_PART_TRANSPOSE'
-    'body': 'IM_HOOK_PART_TRANSPOSE'
-  'IM_HOOK_PART_VOLUME':
-    'prefix': 'IM_HOOK_PART_VOLUME'
-    'body': 'IM_HOOK_PART_VOLUME'
-  'IM_HOOK_TRANSPOSE':
-    'prefix': 'IM_HOOK_TRANSPOSE'
-    'body': 'IM_HOOK_TRANSPOSE'
-  'IM_JUMP_HOOK':
-    'prefix': 'IM_JUMP_HOOK'
-    'body': 'IM_JUMP_HOOK'
-  'IM_LIVE_MIDI_OFF':
-    'prefix': 'IM_LIVE_MIDI_OFF'
-    'body': 'IM_LIVE_MIDI_OFF'
-  'IM_LIVE_MIDI_ON':
-    'prefix': 'IM_LIVE_MIDI_ON'
-    'body': 'IM_LIVE_MIDI_ON'
-  'IM_LOOP_COUNTER':
-    'prefix': 'IM_LOOP_COUNTER'
-    'body': 'IM_LOOP_COUNTER'
-  'IM_LOOP_FROM_BEAT':
-    'prefix': 'IM_LOOP_FROM_BEAT'
-    'body': 'IM_LOOP_FROM_BEAT'
-  'IM_LOOP_FROM_TICK':
-    'prefix': 'IM_LOOP_FROM_TICK'
-    'body': 'IM_LOOP_FROM_TICK'
-  'IM_LOOP_TO_BEAT':
-    'prefix': 'IM_LOOP_TO_BEAT'
-    'body': 'IM_LOOP_TO_BEAT'
-  'IM_LOOP_TO_TICK':
-    'prefix': 'IM_LOOP_TO_TICK'
-    'body': 'IM_LOOP_TO_TICK'
-  'IM_MAYBE_HOOK':
-    'prefix': 'IM_MAYBE_HOOK'
-    'body': 'IM_MAYBE_HOOK'
-  'IM_PAN':
-    'prefix': 'IM_PAN'
-    'body': 'IM_PAN'
-  'IM_PART_INSTRUMENT':
-    'prefix': 'IM_PART_INSTRUMENT'
-    'body': 'IM_PART_INSTRUMENT'
-  'IM_PART_ON':
-    'prefix': 'IM_PART_ON'
-    'body': 'IM_PART_ON'
-  'IM_PART_ON_OFF_HOOK':
-    'prefix': 'IM_PART_ON_OFF_HOOK'
-    'body': 'IM_PART_ON_OFF_HOOK'
-  'IM_PART_PROGRAM_HOOK':
-    'prefix': 'IM_PART_PROGRAM_HOOK'
-    'body': 'IM_PART_PROGRAM_HOOK'
-  'IM_PART_TRANSPOSE':
-    'prefix': 'IM_PART_TRANSPOSE'
-    'body': 'IM_PART_TRANSPOSE'
-  'IM_PART_TRANSPOSE_HOOK':
-    'prefix': 'IM_PART_TRANSPOSE_HOOK'
-    'body': 'IM_PART_TRANSPOSE_HOOK'
-  'IM_PART_VOL':
-    'prefix': 'IM_PART_VOL'
-    'body': 'IM_PART_VOL'
-  'IM_PART_VOLUME_HOOK':
-    'prefix': 'IM_PART_VOLUME_HOOK'
-    'body': 'IM_PART_VOLUME_HOOK'
-  'IM_PLAYER_CLEAR_LOOP':
-    'prefix': 'IM_PLAYER_CLEAR_LOOP'
-    'body': 'IM_PLAYER_CLEAR_LOOP'
-  'IM_PLAYER_FADE':
-    'prefix': 'IM_PLAYER_FADE'
-    'body': 'IM_PLAYER_FADE'
-  'IM_PLAYER_GET_PARAM':
-    'prefix': 'IM_PLAYER_GET_PARAM'
-    'body': 'IM_PLAYER_GET_PARAM'
-  'IM_PLAYER_GET_PARAM':
-    'prefix': 'IM_PLAYER_GET_PARAM'
-    'body': 'IM_PLAYER_GET_PARAM'
-  'IM_PLAYER_JUMP':
-    'prefix': 'IM_PLAYER_JUMP'
-    'body': 'IM_PLAYER_JUMP'
-  'IM_PLAYER_SCAN':
-    'prefix': 'IM_PLAYER_SCAN'
-    'body': 'IM_PLAYER_SCAN'
-  'IM_PLAYER_SET':
-    'prefix': 'IM_PLAYER_SET'
-    'body': 'IM_PLAYER_SET'
-  'IM_PLAYER_SET_DETUNE':
-    'prefix': 'IM_PLAYER_SET_DETUNE'
-    'body': 'IM_PLAYER_SET_DETUNE'
-  'IM_PLAYER_SET_HOOK':
-    'prefix': 'IM_PLAYER_SET_HOOK'
-    'body': 'IM_PLAYER_SET_HOOK'
-  'IM_PLAYER_SET_HOOK':
-    'prefix': 'IM_PLAYER_SET_HOOK'
-    'body': 'IM_PLAYER_SET_HOOK'
-  'IM_PLAYER_SET_LOOP':
-    'prefix': 'IM_PLAYER_SET_LOOP'
-    'body': 'IM_PLAYER_SET_LOOP'
-  'IM_PLAYER_SET_ON_OFF':
-    'prefix': 'IM_PLAYER_SET_ON_OFF'
-    'body': 'IM_PLAYER_SET_ON_OFF'
-  'IM_PLAYER_SET_PAN':
-    'prefix': 'IM_PLAYER_SET_PAN'
-    'body': 'IM_PLAYER_SET_PAN'
-  'IM_PLAYER_SET_PRIORITY':
-    'prefix': 'IM_PLAYER_SET_PRIORITY'
-    'body': 'IM_PLAYER_SET_PRIORITY'
-  'IM_PLAYER_SET_SPEED':
-    'prefix': 'IM_PLAYER_SET_SPEED'
-    'body': 'IM_PLAYER_SET_SPEED'
-  'IM_PLAYER_SET_TRANSPOSE':
-    'prefix': 'IM_PLAYER_SET_TRANSPOSE'
-    'body': 'IM_PLAYER_SET_TRANSPOSE'
-  'IM_PLAYER_SET_VOLUME':
-    'prefix': 'IM_PLAYER_SET_VOLUME'
-    'body': 'IM_PLAYER_SET_VOLUME'
-  'IM_PLAYER_SET_VOLUME':
-    'prefix': 'IM_PLAYER_SET_VOLUME'
-    'body': 'IM_PLAYER_SET_VOLUME'
-  'IM_PRIORITY':
-    'prefix': 'IM_PRIORITY'
-    'body': 'IM_PRIORITY'
-  'IM_QUERY_QUEUE':
-    'prefix': 'IM_QUERY_QUEUE'
-    'body': 'IM_QUERY_QUEUE'
-  'IM_QUEUE_COMMAND':
-    'prefix': 'IM_QUEUE_COMMAND'
-    'body': 'IM_QUEUE_COMMAND'
-  'IM_QUEUE_TRIGGER':
-    'prefix': 'IM_QUEUE_TRIGGER'
-    'body': 'IM_QUEUE_TRIGGER'
-  'IM_SET_CHANNEL_VOLUME':
-    'prefix': 'IM_SET_CHANNEL_VOLUME'
-    'body': 'IM_SET_CHANNEL_VOLUME'
-  'IM_SET_MASTER_VOLUME':
-    'prefix': 'IM_SET_MASTER_VOLUME'
-    'body': 'IM_SET_MASTER_VOLUME'
-  'IM_SET_VOLCHAN':
-    'prefix': 'IM_SET_VOLCHAN'
-    'body': 'IM_SET_VOLCHAN'
-  'IM_SET_VOLCHAN_ENTRY':
-    'prefix': 'IM_SET_VOLCHAN_ENTRY'
-    'body': 'IM_SET_VOLCHAN_ENTRY'
-  'IM_SPEED':
-    'prefix': 'IM_SPEED'
-    'body': 'IM_SPEED'
-  'IM_START_SOUND':
-    'prefix': 'IM_START_SOUND'
-    'body': 'IM_START_SOUND'
-  'IM_STOP_ALL_SOUNDS':
-    'prefix': 'IM_STOP_ALL_SOUNDS'
-    'body': 'IM_STOP_ALL_SOUNDS'
-  'IM_STOP_SOUND':
-    'prefix': 'IM_STOP_SOUND'
-    'body': 'IM_STOP_SOUND'
-  'IM_TICK_INDEX':
-    'prefix': 'IM_TICK_INDEX'
-    'body': 'IM_TICK_INDEX'
-  'IM_TRACK_INDEX':
-    'prefix': 'IM_TRACK_INDEX'
-    'body': 'IM_TRACK_INDEX'
-  'IM_TRANSPOSE':
-    'prefix': 'IM_TRANSPOSE'
-    'body': 'IM_TRANSPOSE'
-  'IM_TRANSPOSE_HOOK':
-    'prefix': 'IM_TRANSPOSE_HOOK'
-    'body': 'IM_TRANSPOSE_HOOK'
-  'IM_VOLUME':
-    'prefix': 'IM_VOLUME'
-    'body': 'IM_VOLUME'
+".source.c.scumm":
+	IM_BEAT_INDEX:
+		prefix: "IM_BEAT_INDEX"
+		body: "IM_BEAT_INDEX$1"
+	IM_CLEAR_TRIGGER:
+		prefix: "IM_CLEAR_TRIGGER"
+		body: "IM_CLEAR_TRIGGER$1"
+	IM_DETUNE:
+		prefix: "IM_DETUNE"
+		body: "IM_DETUNE$1"
+	IM_FADE_SOUND:
+		prefix: "IM_FADE_SOUND"
+		body: "IM_FADE_SOUND$1"
+	IM_GET_MASTER_VOLUME:
+		prefix: "IM_GET_MASTER_VOLUME"
+		body: "IM_GET_MASTER_VOLUME$1"
+	IM_GET_SOUND_STATUS:
+		prefix: "IM_GET_SOUND_STATUS"
+		body: "IM_GET_SOUND_STATUS$1"
+	IM_HOOK_JUMP:
+		prefix: "IM_HOOK_JUMP"
+		body: "IM_HOOK_JUMP$1"
+	IM_HOOK_PART_ON_OFF:
+		prefix: "IM_HOOK_PART_ON_OFF"
+		body: "IM_HOOK_PART_ON_OFF$1"
+	IM_HOOK_PART_PROGRAM:
+		prefix: "IM_HOOK_PART_PROGRAM"
+		body: "IM_HOOK_PART_PROGRAM$1"
+	IM_HOOK_PART_TRANSPOSE:
+		prefix: "IM_HOOK_PART_TRANSPOSE"
+		body: "IM_HOOK_PART_TRANSPOSE$1"
+	IM_HOOK_PART_VOLUME:
+		prefix: "IM_HOOK_PART_VOLUME"
+		body: "IM_HOOK_PART_VOLUME$1"
+	IM_HOOK_TRANSPOSE:
+		prefix: "IM_HOOK_TRANSPOSE"
+		body: "IM_HOOK_TRANSPOSE$1"
+	IM_JUMP_HOOK:
+		prefix: "IM_JUMP_HOOK"
+		body: "IM_JUMP_HOOK$1"
+	IM_LIVE_MIDI_OFF:
+		prefix: "IM_LIVE_MIDI_OFF"
+		body: "IM_LIVE_MIDI_OFF$1"
+	IM_LIVE_MIDI_ON:
+		prefix: "IM_LIVE_MIDI_ON"
+		body: "IM_LIVE_MIDI_ON$1"
+	IM_LOOP_COUNTER:
+		prefix: "IM_LOOP_COUNTER"
+		body: "IM_LOOP_COUNTER$1"
+	IM_LOOP_FROM_BEAT:
+		prefix: "IM_LOOP_FROM_BEAT"
+		body: "IM_LOOP_FROM_BEAT$1"
+	IM_LOOP_FROM_TICK:
+		prefix: "IM_LOOP_FROM_TICK"
+		body: "IM_LOOP_FROM_TICK$1"
+	IM_LOOP_TO_BEAT:
+		prefix: "IM_LOOP_TO_BEAT"
+		body: "IM_LOOP_TO_BEAT$1"
+	IM_LOOP_TO_TICK:
+		prefix: "IM_LOOP_TO_TICK"
+		body: "IM_LOOP_TO_TICK$1"
+	IM_MAYBE_HOOK:
+		prefix: "IM_MAYBE_HOOK"
+		body: "IM_MAYBE_HOOK$1"
+	IM_PAN:
+		prefix: "IM_PAN"
+		body: "IM_PAN$1"
+	IM_PART_INSTRUMENT:
+		prefix: "IM_PART_INSTRUMENT"
+		body: "IM_PART_INSTRUMENT$1"
+	IM_PART_ON:
+		prefix: "IM_PART_ON"
+		body: "IM_PART_ON$1"
+	IM_PART_ON_OFF_HOOK:
+		prefix: "IM_PART_ON_OFF_HOOK"
+		body: "IM_PART_ON_OFF_HOOK$1"
+	IM_PART_PROGRAM_HOOK:
+		prefix: "IM_PART_PROGRAM_HOOK"
+		body: "IM_PART_PROGRAM_HOOK$1"
+	IM_PART_TRANSPOSE:
+		prefix: "IM_PART_TRANSPOSE"
+		body: "IM_PART_TRANSPOSE$1"
+	IM_PART_TRANSPOSE_HOOK:
+		prefix: "IM_PART_TRANSPOSE_HOOK"
+		body: "IM_PART_TRANSPOSE_HOOK$1"
+	IM_PART_VOL:
+		prefix: "IM_PART_VOL"
+		body: "IM_PART_VOL$1"
+	IM_PART_VOLUME_HOOK:
+		prefix: "IM_PART_VOLUME_HOOK"
+		body: "IM_PART_VOLUME_HOOK$1"
+	IM_PLAYER_CLEAR_LOOP:
+		prefix: "IM_PLAYER_CLEAR_LOOP"
+		body: "IM_PLAYER_CLEAR_LOOP$1"
+	IM_PLAYER_FADE:
+		prefix: "IM_PLAYER_FADE"
+		body: "IM_PLAYER_FADE$1"
+	IM_PLAYER_GET_PARAM:
+		prefix: "IM_PLAYER_GET_PARAM"
+		body: "IM_PLAYER_GET_PARAM$1"
+	IM_PLAYER_JUMP:
+		prefix: "IM_PLAYER_JUMP"
+		body: "IM_PLAYER_JUMP$1"
+	IM_PLAYER_SCAN:
+		prefix: "IM_PLAYER_SCAN"
+		body: "IM_PLAYER_SCAN$1"
+	IM_PLAYER_SET:
+		prefix: "IM_PLAYER_SET"
+		body: "IM_PLAYER_SET$1"
+	IM_PLAYER_SET_DETUNE:
+		prefix: "IM_PLAYER_SET_DETUNE"
+		body: "IM_PLAYER_SET_DETUNE$1"
+	IM_PLAYER_SET_HOOK:
+		prefix: "IM_PLAYER_SET_HOOK"
+		body: "IM_PLAYER_SET_HOOK$1"
+	IM_PLAYER_SET_LOOP:
+		prefix: "IM_PLAYER_SET_LOOP"
+		body: "IM_PLAYER_SET_LOOP$1"
+	IM_PLAYER_SET_ON_OFF:
+		prefix: "IM_PLAYER_SET_ON_OFF"
+		body: "IM_PLAYER_SET_ON_OFF$1"
+	IM_PLAYER_SET_PAN:
+		prefix: "IM_PLAYER_SET_PAN"
+		body: "IM_PLAYER_SET_PAN$1"
+	IM_PLAYER_SET_PRIORITY:
+		prefix: "IM_PLAYER_SET_PRIORITY"
+		body: "IM_PLAYER_SET_PRIORITY$1"
+	IM_PLAYER_SET_SPEED:
+		prefix: "IM_PLAYER_SET_SPEED"
+		body: "IM_PLAYER_SET_SPEED$1"
+	IM_PLAYER_SET_TRANSPOSE:
+		prefix: "IM_PLAYER_SET_TRANSPOSE"
+		body: "IM_PLAYER_SET_TRANSPOSE$1"
+	IM_PLAYER_SET_VOLUME:
+		prefix: "IM_PLAYER_SET_VOLUME"
+		body: "IM_PLAYER_SET_VOLUME$1"
+	IM_PRIORITY:
+		prefix: "IM_PRIORITY"
+		body: "IM_PRIORITY$1"
+	IM_QUERY_QUEUE:
+		prefix: "IM_QUERY_QUEUE"
+		body: "IM_QUERY_QUEUE$1"
+	IM_QUEUE_COMMAND:
+		prefix: "IM_QUEUE_COMMAND"
+		body: "IM_QUEUE_COMMAND$1"
+	IM_QUEUE_TRIGGER:
+		prefix: "IM_QUEUE_TRIGGER"
+		body: "IM_QUEUE_TRIGGER$1"
+	IM_SET_CHANNEL_VOLUME:
+		prefix: "IM_SET_CHANNEL_VOLUME"
+		body: "IM_SET_CHANNEL_VOLUME$1"
+	IM_SET_MASTER_VOLUME:
+		prefix: "IM_SET_MASTER_VOLUME"
+		body: "IM_SET_MASTER_VOLUME$1"
+	IM_SET_VOLCHAN:
+		prefix: "IM_SET_VOLCHAN"
+		body: "IM_SET_VOLCHAN$1"
+	IM_SET_VOLCHAN_ENTRY:
+		prefix: "IM_SET_VOLCHAN_ENTRY"
+		body: "IM_SET_VOLCHAN_ENTRY$1"
+	IM_SPEED:
+		prefix: "IM_SPEED"
+		body: "IM_SPEED$1"
+	IM_START_SOUND:
+		prefix: "IM_START_SOUND"
+		body: "IM_START_SOUND$1"
+	IM_STOP_ALL_SOUNDS:
+		prefix: "IM_STOP_ALL_SOUNDS"
+		body: "IM_STOP_ALL_SOUNDS$1"
+	IM_STOP_SOUND:
+		prefix: "IM_STOP_SOUND"
+		body: "IM_STOP_SOUND$1"
+	IM_TICK_INDEX:
+		prefix: "IM_TICK_INDEX"
+		body: "IM_TICK_INDEX$1"
+	IM_TRACK_INDEX:
+		prefix: "IM_TRACK_INDEX"
+		body: "IM_TRACK_INDEX$1"
+	IM_TRANSPOSE:
+		prefix: "IM_TRANSPOSE"
+		body: "IM_TRANSPOSE$1"
+	IM_TRANSPOSE_HOOK:
+		prefix: "IM_TRANSPOSE_HOOK"
+		body: "IM_TRANSPOSE_HOOK$1"
+	IM_VOLUME:
+		prefix: "IM_VOLUME"
+		body: "IM_VOLUME$1"

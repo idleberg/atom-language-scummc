@@ -4,21 +4,21 @@
     'body': """
       anim ${1:name} {
           ${2:// your code here}
-      }
+      }$3
     """
   'cutscene':
     'prefix': 'cutscene'
     'body': """
       cutscene ( ${1:/* args */} ) {
           ${2:// your code here}
-      }
+      }$3
     """
   'limb':
     'prefix': 'limb'
     'body': """
       limb ${1:name} {
           ${2:// picture_list}
-      }
+      }$3
     """
   'move':
     'prefix': 'move'
@@ -28,7 +28,7 @@
     'body': """
       object ${1:name} {
           ${2:// object_properties}
-      }
+      }$3
     """
   'palette':
     'prefix': 'palette'
@@ -38,7 +38,7 @@
     'body': """
       picture ${1:name} {
           ${2:// picture_params}
-      }
+      }$3
     """
   'position':
     'prefix': 'position'
@@ -48,12 +48,12 @@
     'body': """
       room ${1:name} {
           ${2:// room_declarations}
-      }
+      }$3
     """
   'script':
     'prefix': 'script'
     'body': """
       ${1:local|global} script ${2:name}${3:( ${4:/* args */} )} {
           ${5:// your code here}
-      }
+      }$6
     """
