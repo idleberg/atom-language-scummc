@@ -1,310 +1,310 @@
-'.source.c.scumm':
-  'VAR_ACTOR_RANGE_MAX':
-    'prefix': 'VAR_ACTOR_RANGE_MAX'
-    'body': 'VAR_ACTOR_RANGE_MAX$1'
-  'VAR_ACTOR_RANGE_MIN':
-    'prefix': 'VAR_ACTOR_RANGE_MIN'
-    'body': 'VAR_ACTOR_RANGE_MIN$1'
-  'VAR_CAMERA_FAST_X':
-    'prefix': 'VAR_CAMERA_FAST_X'
-    'body': 'VAR_CAMERA_FAST_X$1'
-  'VAR_CAMERA_MAX_X':
-    'prefix': 'VAR_CAMERA_MAX_X'
-    'body': 'VAR_CAMERA_MAX_X$1'
-  'VAR_CAMERA_MIN_X':
-    'prefix': 'VAR_CAMERA_MIN_X'
-    'body': 'VAR_CAMERA_MIN_X$1'
-  'VAR_CAMERA_POS_X':
-    'prefix': 'VAR_CAMERA_POS_X'
-    'body': 'VAR_CAMERA_POS_X$1'
-  'VAR_CAMERA_SCRIPT':
-    'prefix': 'VAR_CAMERA_SCRIPT'
-    'body': 'VAR_CAMERA_SCRIPT$1'
-  'VAR_CANCEL_BTN':
-    'prefix': 'VAR_CANCEL_BTN'
-    'body': 'VAR_CANCEL_BTN$1'
-  'VAR_CHARINC':
-    'prefix': 'VAR_CHARINC'
-    'body': 'VAR_CHARINC$1'
-  'VAR_CURRENTDRIVE':
-    'prefix': 'VAR_CURRENTDRIVE'
-    'body': 'VAR_CURRENTDRIVE$1'
-  'VAR_CURSORSTATE':
-    'prefix': 'VAR_CURSORSTATE'
-    'body': 'VAR_CURSORSTATE$1'
-  'VAR_CUTSCENE_END_SCRIPT':
-    'prefix': 'VAR_CUTSCENE_END_SCRIPT'
-    'body': 'VAR_CUTSCENE_END_SCRIPT$1'
-  'VAR_CUTSCENE_START_SCRIPT':
-    'prefix': 'VAR_CUTSCENE_START_SCRIPT'
-    'body': 'VAR_CUTSCENE_START_SCRIPT$1'
-  'VAR_CUTSCENEEXIT_KEY':
-    'prefix': 'VAR_CUTSCENEEXIT_KEY'
-    'body': 'VAR_CUTSCENEEXIT_KEY$1'
-  'VAR_DEBUG_PASSWORD':
-    'prefix': 'VAR_DEBUG_PASSWORD'
-    'body': 'VAR_DEBUG_PASSWORD$1'
-  'VAR_DEBUGMODE':
-    'prefix': 'VAR_DEBUGMODE'
-    'body': 'VAR_DEBUGMODE$1'
-  'VAR_EGO':
-    'prefix': 'VAR_EGO'
-    'body': 'VAR_EGO$1'
-  'VAR_ENTER_NAME_MSG':
-    'prefix': 'VAR_ENTER_NAME_MSG'
-    'body': 'VAR_ENTER_NAME_MSG$1'
-  'VAR_FADE_DELAY':
-    'prefix': 'VAR_FADE_DELAY'
-    'body': 'VAR_FADE_DELAY$1'
-  'VAR_FIXEDDISK':
-    'prefix': 'VAR_FIXEDDISK'
-    'body': 'VAR_FIXEDDISK$1'
-  'VAR_GAME_DISK_MSG':
-    'prefix': 'VAR_GAME_DISK_MSG'
-    'body': 'VAR_GAME_DISK_MSG$1'
-  'VAR_GAME_LOADED':
-    'prefix': 'VAR_GAME_LOADED'
-    'body': 'VAR_GAME_LOADED$1'
-  'VAR_GAME_VERSION':
-    'prefix': 'VAR_GAME_VERSION'
-    'body': 'VAR_GAME_VERSION$1'
-  'VAR_GUI_COLORS':
-    'prefix': 'VAR_GUI_COLORS'
-    'body': 'VAR_GUI_COLORS$1'
-  'VAR_GUI_ENTRY_SCRIPT':
-    'prefix': 'VAR_GUI_ENTRY_SCRIPT'
-    'body': 'VAR_GUI_ENTRY_SCRIPT$1'
-  'VAR_GUI_EXIT_SCRIPT':
-    'prefix': 'VAR_GUI_EXIT_SCRIPT'
-    'body': 'VAR_GUI_EXIT_SCRIPT$1'
-  'VAR_HAVE_MSG':
-    'prefix': 'VAR_HAVE_MSG'
-    'body': 'VAR_HAVE_MSG$1'
-  'VAR_HEAPSPACE':
-    'prefix': 'VAR_HEAPSPACE'
-    'body': 'VAR_HEAPSPACE$1'
-  'VAR_INVENTORY_SCRIPT':
-    'prefix': 'VAR_INVENTORY_SCRIPT'
-    'body': 'VAR_INVENTORY_SCRIPT$1'
-  'VAR_KEYPRESS':
-    'prefix': 'VAR_KEYPRESS'
-    'body': 'VAR_KEYPRESS$1'
-  'VAR_LAST_SOUND':
-    'prefix': 'VAR_LAST_SOUND'
-    'body': 'VAR_LAST_SOUND$1'
-  'VAR_LEFTBTN_HOLD':
-    'prefix': 'VAR_LEFTBTN_HOLD'
-    'body': 'VAR_LEFTBTN_HOLD$1'
-  'VAR_LOAD_BTN':
-    'prefix': 'VAR_LOAD_BTN'
-    'body': 'VAR_LOAD_BTN$1'
-  'VAR_LOAD_MENU_TITLE':
-    'prefix': 'VAR_LOAD_MENU_TITLE'
-    'body': 'VAR_LOAD_MENU_TITLE$1'
-  'VAR_LOAD_MSG':
-    'prefix': 'VAR_LOAD_MSG'
-    'body': 'VAR_LOAD_MSG$1'
-  'VAR_MACHINE_SPEED':
-    'prefix': 'VAR_MACHINE_SPEED'
-    'body': 'VAR_MACHINE_SPEED$1'
-  'VAR_MAIN_MENU_TITLE':
-    'prefix': 'VAR_MAIN_MENU_TITLE'
-    'body': 'VAR_MAIN_MENU_TITLE$1'
-  'VAR_MAINMENU_KEY':
-    'prefix': 'VAR_MAINMENU_KEY'
-    'body': 'VAR_MAINMENU_KEY$1'
-  'VAR_ME':
-    'prefix': 'VAR_ME'
-    'body': 'VAR_ME$1'
-  'VAR_MEMORY_PERFORMANCE':
-    'prefix': 'VAR_MEMORY_PERFORMANCE'
-    'body': 'VAR_MEMORY_PERFORMANCE$1'
-  'VAR_MOUSE_X':
-    'prefix': 'VAR_MOUSE_X'
-    'body': 'VAR_MOUSE_X$1'
-  'VAR_MOUSE_Y':
-    'prefix': 'VAR_MOUSE_Y'
-    'body': 'VAR_MOUSE_Y$1'
-  'VAR_MOUSEPRESENT':
-    'prefix': 'VAR_MOUSEPRESENT'
-    'body': 'VAR_MOUSEPRESENT$1'
-  'VAR_MUSIC_TIMER':
-    'prefix': 'VAR_MUSIC_TIMER'
-    'body': 'VAR_MUSIC_TIMER$1'
-  'VAR_NEW_ROOM':
-    'prefix': 'VAR_NEW_ROOM'
-    'body': 'VAR_NEW_ROOM$1'
-  'VAR_NOSUBTITLES':
-    'prefix': 'VAR_NOSUBTITLES'
-    'body': 'VAR_NOSUBTITLES$1'
-  'VAR_NOT_LOADED_MSG':
-    'prefix': 'VAR_NOT_LOADED_MSG'
-    'body': 'VAR_NOT_LOADED_MSG$1'
-  'VAR_NOT_SAVED_MSG':
-    'prefix': 'VAR_NOT_SAVED_MSG'
-    'body': 'VAR_NOT_SAVED_MSG$1'
-  'VAR_NUM_ACTOR':
-    'prefix': 'VAR_NUM_ACTOR'
-    'body': 'VAR_NUM_ACTOR$1'
-  'VAR_OK_BTN':
-    'prefix': 'VAR_OK_BTN'
-    'body': 'VAR_OK_BTN$1'
-  'VAR_OPEN_FAILED_MSG':
-    'prefix': 'VAR_OPEN_FAILED_MSG'
-    'body': 'VAR_OPEN_FAILED_MSG$1'
-  'VAR_OVERRIDE':
-    'prefix': 'VAR_OVERRIDE'
-    'body': 'VAR_OVERRIDE$1'
-  'VAR_PAUSE_KEY':
-    'prefix': 'VAR_PAUSE_KEY'
-    'body': 'VAR_PAUSE_KEY$1'
-  'VAR_PAUSE_MSG':
-    'prefix': 'VAR_PAUSE_MSG'
-    'body': 'VAR_PAUSE_MSG$1'
-  'VAR_PLAY_BTN':
-    'prefix': 'VAR_PLAY_BTN'
-    'body': 'VAR_PLAY_BTN$1'
-  'VAR_POST_ENTRY_SCRIPT':
-    'prefix': 'VAR_POST_ENTRY_SCRIPT'
-    'body': 'VAR_POST_ENTRY_SCRIPT$1'
-  'VAR_POST_EXIT_SCRIPT':
-    'prefix': 'VAR_POST_EXIT_SCRIPT'
-    'body': 'VAR_POST_EXIT_SCRIPT$1'
-  'VAR_PRE_ENTRY_SCRIPT':
-    'prefix': 'VAR_PRE_ENTRY_SCRIPT'
-    'body': 'VAR_PRE_ENTRY_SCRIPT$1'
-  'VAR_PRE_EXIT_SCRIPT':
-    'prefix': 'VAR_PRE_EXIT_SCRIPT'
-    'body': 'VAR_PRE_EXIT_SCRIPT$1'
-  'VAR_QUIT_BTN':
-    'prefix': 'VAR_QUIT_BTN'
-    'body': 'VAR_QUIT_BTN$1'
-  'VAR_QUIT_MSG':
-    'prefix': 'VAR_QUIT_MSG'
-    'body': 'VAR_QUIT_MSG$1'
-  'VAR_RANDOM_NR':
-    'prefix': 'VAR_RANDOM_NR'
-    'body': 'VAR_RANDOM_NR$1'
-  'VAR_READ_ERROR_MSG':
-    'prefix': 'VAR_READ_ERROR_MSG'
-    'body': 'VAR_READ_ERROR_MSG$1'
-  'VAR_RESTART_KEY':
-    'prefix': 'VAR_RESTART_KEY'
-    'body': 'VAR_RESTART_KEY$1'
-  'VAR_RESTART_MSG':
-    'prefix': 'VAR_RESTART_MSG'
-    'body': 'VAR_RESTART_MSG$1'
-  'VAR_RIGHTBTN_HOLD':
-    'prefix': 'VAR_RIGHTBTN_HOLD'
-    'body': 'VAR_RIGHTBTN_HOLD$1'
-  'VAR_ROOM':
-    'prefix': 'VAR_ROOM'
-    'body': 'VAR_ROOM$1'
-  'VAR_ROOM_FLAG':
-    'prefix': 'VAR_ROOM_FLAG'
-    'body': 'VAR_ROOM_FLAG$1'
-  'VAR_ROOM_HEIGHT':
-    'prefix': 'VAR_ROOM_HEIGHT'
-    'body': 'VAR_ROOM_HEIGHT$1'
-  'VAR_ROOM_RESOURCE':
-    'prefix': 'VAR_ROOM_RESOURCE'
-    'body': 'VAR_ROOM_RESOURCE$1'
-  'VAR_ROOM_WIDTH':
-    'prefix': 'VAR_ROOM_WIDTH'
-    'body': 'VAR_ROOM_WIDTH$1'
-  'VAR_SAVE_BTN':
-    'prefix': 'VAR_SAVE_BTN'
-    'body': 'VAR_SAVE_BTN$1'
-  'VAR_SAVE_DISK_MSG':
-    'prefix': 'VAR_SAVE_DISK_MSG'
-    'body': 'VAR_SAVE_DISK_MSG$1'
-  'VAR_SAVE_MENU_TITLE':
-    'prefix': 'VAR_SAVE_MENU_TITLE'
-    'body': 'VAR_SAVE_MENU_TITLE$1'
-  'VAR_SAVE_MSG':
-    'prefix': 'VAR_SAVE_MSG'
-    'body': 'VAR_SAVE_MSG$1'
-  'VAR_SENTENCE_SCRIPT':
-    'prefix': 'VAR_SENTENCE_SCRIPT'
-    'body': 'VAR_SENTENCE_SCRIPT$1'
-  'VAR_SOUNDCARD':
-    'prefix': 'VAR_SOUNDCARD'
-    'body': 'VAR_SOUNDCARD$1'
-  'VAR_SOUNDPARAM':
-    'prefix': 'VAR_SOUNDPARAM'
-    'body': 'VAR_SOUNDPARAM$1'
-  'VAR_SOUNDPARAM2':
-    'prefix': 'VAR_SOUNDPARAM2'
-    'body': 'VAR_SOUNDPARAM2$1'
-  'VAR_SOUNDPARAM3':
-    'prefix': 'VAR_SOUNDPARAM3'
-    'body': 'VAR_SOUNDPARAM3$1'
-  'VAR_SOUNDRESULT':
-    'prefix': 'VAR_SOUNDRESULT'
-    'body': 'VAR_SOUNDRESULT$1'
-  'VAR_TALK_ACTOR':
-    'prefix': 'VAR_TALK_ACTOR'
-    'body': 'VAR_TALK_ACTOR$1'
-  'VAR_TALKSTOP_KEY':
-    'prefix': 'VAR_TALKSTOP_KEY'
-    'body': 'VAR_TALKSTOP_KEY$1'
-  'VAR_TIMEDATE_DAY':
-    'prefix': 'VAR_TIMEDATE_DAY'
-    'body': 'VAR_TIMEDATE_DAY$1'
-  'VAR_TIMEDATE_HOUR':
-    'prefix': 'VAR_TIMEDATE_HOUR'
-    'body': 'VAR_TIMEDATE_HOUR$1'
-  'VAR_TIMEDATE_MINUTE':
-    'prefix': 'VAR_TIMEDATE_MINUTE'
-    'body': 'VAR_TIMEDATE_MINUTE$1'
-  'VAR_TIMEDATE_MONTH':
-    'prefix': 'VAR_TIMEDATE_MONTH'
-    'body': 'VAR_TIMEDATE_MONTH$1'
-  'VAR_TIMEDATE_YEAR':
-    'prefix': 'VAR_TIMEDATE_YEAR'
-    'body': 'VAR_TIMEDATE_YEAR$1'
-  'VAR_TIMER':
-    'prefix': 'VAR_TIMER'
-    'body': 'VAR_TIMER$1'
-  'VAR_TIMER_NEXT':
-    'prefix': 'VAR_TIMER_NEXT'
-    'body': 'VAR_TIMER_NEXT$1'
-  'VAR_TMR_1':
-    'prefix': 'VAR_TMR_1'
-    'body': 'VAR_TMR_1$1'
-  'VAR_TMR_2':
-    'prefix': 'VAR_TMR_2'
-    'body': 'VAR_TMR_2$1'
-  'VAR_TMR_3':
-    'prefix': 'VAR_TMR_3'
-    'body': 'VAR_TMR_3$1'
-  'VAR_TMR_4':
-    'prefix': 'VAR_TMR_4'
-    'body': 'VAR_TMR_4$1'
-  'VAR_USERPUT':
-    'prefix': 'VAR_USERPUT'
-    'body': 'VAR_USERPUT$1'
-  'VAR_V6_EMSSPACE':
-    'prefix': 'VAR_V6_EMSSPACE'
-    'body': 'VAR_V6_EMSSPACE$1'
-  'VAR_V6_SOUNDMODE':
-    'prefix': 'VAR_V6_SOUNDMODE'
-    'body': 'VAR_V6_SOUNDMODE$1'
-  'VAR_VERB_SCRIPT':
-    'prefix': 'VAR_VERB_SCRIPT'
-    'body': 'VAR_VERB_SCRIPT$1'
-  'VAR_VIDEO_PERFORMANCE':
-    'prefix': 'VAR_VIDEO_PERFORMANCE'
-    'body': 'VAR_VIDEO_PERFORMANCE$1'
-  'VAR_VIDEOMODE':
-    'prefix': 'VAR_VIDEOMODE'
-    'body': 'VAR_VIDEOMODE$1'
-  'VAR_VIRT_MOUSE_X':
-    'prefix': 'VAR_VIRT_MOUSE_X'
-    'body': 'VAR_VIRT_MOUSE_X$1'
-  'VAR_VIRT_MOUSE_Y':
-    'prefix': 'VAR_VIRT_MOUSE_Y'
-    'body': 'VAR_VIRT_MOUSE_Y$1'
-  'VAR_WALKTO_OBJ':
-    'prefix': 'VAR_WALKTO_OBJ'
-    'body': 'VAR_WALKTO_OBJ$1'
+".source.c.scumm":
+  VAR_ACTOR_RANGE_MAX:
+    prefix: "VAR_ACTOR_RANGE_MAX"
+    body: "VAR_ACTOR_RANGE_MAX$1"
+  VAR_ACTOR_RANGE_MIN:
+    prefix: "VAR_ACTOR_RANGE_MIN"
+    body: "VAR_ACTOR_RANGE_MIN$1"
+  VAR_CAMERA_FAST_X:
+    prefix: "VAR_CAMERA_FAST_X"
+    body: "VAR_CAMERA_FAST_X$1"
+  VAR_CAMERA_MAX_X:
+    prefix: "VAR_CAMERA_MAX_X"
+    body: "VAR_CAMERA_MAX_X$1"
+  VAR_CAMERA_MIN_X:
+    prefix: "VAR_CAMERA_MIN_X"
+    body: "VAR_CAMERA_MIN_X$1"
+  VAR_CAMERA_POS_X:
+    prefix: "VAR_CAMERA_POS_X"
+    body: "VAR_CAMERA_POS_X$1"
+  VAR_CAMERA_SCRIPT:
+    prefix: "VAR_CAMERA_SCRIPT"
+    body: "VAR_CAMERA_SCRIPT$1"
+  VAR_CANCEL_BTN:
+    prefix: "VAR_CANCEL_BTN"
+    body: "VAR_CANCEL_BTN$1"
+  VAR_CHARINC:
+    prefix: "VAR_CHARINC"
+    body: "VAR_CHARINC$1"
+  VAR_CURRENTDRIVE:
+    prefix: "VAR_CURRENTDRIVE"
+    body: "VAR_CURRENTDRIVE$1"
+  VAR_CURSORSTATE:
+    prefix: "VAR_CURSORSTATE"
+    body: "VAR_CURSORSTATE$1"
+  VAR_CUTSCENE_END_SCRIPT:
+    prefix: "VAR_CUTSCENE_END_SCRIPT"
+    body: "VAR_CUTSCENE_END_SCRIPT$1"
+  VAR_CUTSCENE_START_SCRIPT:
+    prefix: "VAR_CUTSCENE_START_SCRIPT"
+    body: "VAR_CUTSCENE_START_SCRIPT$1"
+  VAR_CUTSCENEEXIT_KEY:
+    prefix: "VAR_CUTSCENEEXIT_KEY"
+    body: "VAR_CUTSCENEEXIT_KEY$1"
+  VAR_DEBUG_PASSWORD:
+    prefix: "VAR_DEBUG_PASSWORD"
+    body: "VAR_DEBUG_PASSWORD$1"
+  VAR_DEBUGMODE:
+    prefix: "VAR_DEBUGMODE"
+    body: "VAR_DEBUGMODE$1"
+  VAR_EGO:
+    prefix: "VAR_EGO"
+    body: "VAR_EGO$1"
+  VAR_ENTER_NAME_MSG:
+    prefix: "VAR_ENTER_NAME_MSG"
+    body: "VAR_ENTER_NAME_MSG$1"
+  VAR_FADE_DELAY:
+    prefix: "VAR_FADE_DELAY"
+    body: "VAR_FADE_DELAY$1"
+  VAR_FIXEDDISK:
+    prefix: "VAR_FIXEDDISK"
+    body: "VAR_FIXEDDISK$1"
+  VAR_GAME_DISK_MSG:
+    prefix: "VAR_GAME_DISK_MSG"
+    body: "VAR_GAME_DISK_MSG$1"
+  VAR_GAME_LOADED:
+    prefix: "VAR_GAME_LOADED"
+    body: "VAR_GAME_LOADED$1"
+  VAR_GAME_VERSION:
+    prefix: "VAR_GAME_VERSION"
+    body: "VAR_GAME_VERSION$1"
+  VAR_GUI_COLORS:
+    prefix: "VAR_GUI_COLORS"
+    body: "VAR_GUI_COLORS$1"
+  VAR_GUI_ENTRY_SCRIPT:
+    prefix: "VAR_GUI_ENTRY_SCRIPT"
+    body: "VAR_GUI_ENTRY_SCRIPT$1"
+  VAR_GUI_EXIT_SCRIPT:
+    prefix: "VAR_GUI_EXIT_SCRIPT"
+    body: "VAR_GUI_EXIT_SCRIPT$1"
+  VAR_HAVE_MSG:
+    prefix: "VAR_HAVE_MSG"
+    body: "VAR_HAVE_MSG$1"
+  VAR_HEAPSPACE:
+    prefix: "VAR_HEAPSPACE"
+    body: "VAR_HEAPSPACE$1"
+  VAR_INVENTORY_SCRIPT:
+    prefix: "VAR_INVENTORY_SCRIPT"
+    body: "VAR_INVENTORY_SCRIPT$1"
+  VAR_KEYPRESS:
+    prefix: "VAR_KEYPRESS"
+    body: "VAR_KEYPRESS$1"
+  VAR_LAST_SOUND:
+    prefix: "VAR_LAST_SOUND"
+    body: "VAR_LAST_SOUND$1"
+  VAR_LEFTBTN_HOLD:
+    prefix: "VAR_LEFTBTN_HOLD"
+    body: "VAR_LEFTBTN_HOLD$1"
+  VAR_LOAD_BTN:
+    prefix: "VAR_LOAD_BTN"
+    body: "VAR_LOAD_BTN$1"
+  VAR_LOAD_MENU_TITLE:
+    prefix: "VAR_LOAD_MENU_TITLE"
+    body: "VAR_LOAD_MENU_TITLE$1"
+  VAR_LOAD_MSG:
+    prefix: "VAR_LOAD_MSG"
+    body: "VAR_LOAD_MSG$1"
+  VAR_MACHINE_SPEED:
+    prefix: "VAR_MACHINE_SPEED"
+    body: "VAR_MACHINE_SPEED$1"
+  VAR_MAIN_MENU_TITLE:
+    prefix: "VAR_MAIN_MENU_TITLE"
+    body: "VAR_MAIN_MENU_TITLE$1"
+  VAR_MAINMENU_KEY:
+    prefix: "VAR_MAINMENU_KEY"
+    body: "VAR_MAINMENU_KEY$1"
+  VAR_ME:
+    prefix: "VAR_ME"
+    body: "VAR_ME$1"
+  VAR_MEMORY_PERFORMANCE:
+    prefix: "VAR_MEMORY_PERFORMANCE"
+    body: "VAR_MEMORY_PERFORMANCE$1"
+  VAR_MOUSE_X:
+    prefix: "VAR_MOUSE_X"
+    body: "VAR_MOUSE_X$1"
+  VAR_MOUSE_Y:
+    prefix: "VAR_MOUSE_Y"
+    body: "VAR_MOUSE_Y$1"
+  VAR_MOUSEPRESENT:
+    prefix: "VAR_MOUSEPRESENT"
+    body: "VAR_MOUSEPRESENT$1"
+  VAR_MUSIC_TIMER:
+    prefix: "VAR_MUSIC_TIMER"
+    body: "VAR_MUSIC_TIMER$1"
+  VAR_NEW_ROOM:
+    prefix: "VAR_NEW_ROOM"
+    body: "VAR_NEW_ROOM$1"
+  VAR_NOSUBTITLES:
+    prefix: "VAR_NOSUBTITLES"
+    body: "VAR_NOSUBTITLES$1"
+  VAR_NOT_LOADED_MSG:
+    prefix: "VAR_NOT_LOADED_MSG"
+    body: "VAR_NOT_LOADED_MSG$1"
+  VAR_NOT_SAVED_MSG:
+    prefix: "VAR_NOT_SAVED_MSG"
+    body: "VAR_NOT_SAVED_MSG$1"
+  VAR_NUM_ACTOR:
+    prefix: "VAR_NUM_ACTOR"
+    body: "VAR_NUM_ACTOR$1"
+  VAR_OK_BTN:
+    prefix: "VAR_OK_BTN"
+    body: "VAR_OK_BTN$1"
+  VAR_OPEN_FAILED_MSG:
+    prefix: "VAR_OPEN_FAILED_MSG"
+    body: "VAR_OPEN_FAILED_MSG$1"
+  VAR_OVERRIDE:
+    prefix: "VAR_OVERRIDE"
+    body: "VAR_OVERRIDE$1"
+  VAR_PAUSE_KEY:
+    prefix: "VAR_PAUSE_KEY"
+    body: "VAR_PAUSE_KEY$1"
+  VAR_PAUSE_MSG:
+    prefix: "VAR_PAUSE_MSG"
+    body: "VAR_PAUSE_MSG$1"
+  VAR_PLAY_BTN:
+    prefix: "VAR_PLAY_BTN"
+    body: "VAR_PLAY_BTN$1"
+  VAR_POST_ENTRY_SCRIPT:
+    prefix: "VAR_POST_ENTRY_SCRIPT"
+    body: "VAR_POST_ENTRY_SCRIPT$1"
+  VAR_POST_EXIT_SCRIPT:
+    prefix: "VAR_POST_EXIT_SCRIPT"
+    body: "VAR_POST_EXIT_SCRIPT$1"
+  VAR_PRE_ENTRY_SCRIPT:
+    prefix: "VAR_PRE_ENTRY_SCRIPT"
+    body: "VAR_PRE_ENTRY_SCRIPT$1"
+  VAR_PRE_EXIT_SCRIPT:
+    prefix: "VAR_PRE_EXIT_SCRIPT"
+    body: "VAR_PRE_EXIT_SCRIPT$1"
+  VAR_QUIT_BTN:
+    prefix: "VAR_QUIT_BTN"
+    body: "VAR_QUIT_BTN$1"
+  VAR_QUIT_MSG:
+    prefix: "VAR_QUIT_MSG"
+    body: "VAR_QUIT_MSG$1"
+  VAR_RANDOM_NR:
+    prefix: "VAR_RANDOM_NR"
+    body: "VAR_RANDOM_NR$1"
+  VAR_READ_ERROR_MSG:
+    prefix: "VAR_READ_ERROR_MSG"
+    body: "VAR_READ_ERROR_MSG$1"
+  VAR_RESTART_KEY:
+    prefix: "VAR_RESTART_KEY"
+    body: "VAR_RESTART_KEY$1"
+  VAR_RESTART_MSG:
+    prefix: "VAR_RESTART_MSG"
+    body: "VAR_RESTART_MSG$1"
+  VAR_RIGHTBTN_HOLD:
+    prefix: "VAR_RIGHTBTN_HOLD"
+    body: "VAR_RIGHTBTN_HOLD$1"
+  VAR_ROOM:
+    prefix: "VAR_ROOM"
+    body: "VAR_ROOM$1"
+  VAR_ROOM_FLAG:
+    prefix: "VAR_ROOM_FLAG"
+    body: "VAR_ROOM_FLAG$1"
+  VAR_ROOM_HEIGHT:
+    prefix: "VAR_ROOM_HEIGHT"
+    body: "VAR_ROOM_HEIGHT$1"
+  VAR_ROOM_RESOURCE:
+    prefix: "VAR_ROOM_RESOURCE"
+    body: "VAR_ROOM_RESOURCE$1"
+  VAR_ROOM_WIDTH:
+    prefix: "VAR_ROOM_WIDTH"
+    body: "VAR_ROOM_WIDTH$1"
+  VAR_SAVE_BTN:
+    prefix: "VAR_SAVE_BTN"
+    body: "VAR_SAVE_BTN$1"
+  VAR_SAVE_DISK_MSG:
+    prefix: "VAR_SAVE_DISK_MSG"
+    body: "VAR_SAVE_DISK_MSG$1"
+  VAR_SAVE_MENU_TITLE:
+    prefix: "VAR_SAVE_MENU_TITLE"
+    body: "VAR_SAVE_MENU_TITLE$1"
+  VAR_SAVE_MSG:
+    prefix: "VAR_SAVE_MSG"
+    body: "VAR_SAVE_MSG$1"
+  VAR_SENTENCE_SCRIPT:
+    prefix: "VAR_SENTENCE_SCRIPT"
+    body: "VAR_SENTENCE_SCRIPT$1"
+  VAR_SOUNDCARD:
+    prefix: "VAR_SOUNDCARD"
+    body: "VAR_SOUNDCARD$1"
+  VAR_SOUNDPARAM:
+    prefix: "VAR_SOUNDPARAM"
+    body: "VAR_SOUNDPARAM$1"
+  VAR_SOUNDPARAM2:
+    prefix: "VAR_SOUNDPARAM2"
+    body: "VAR_SOUNDPARAM2$1"
+  VAR_SOUNDPARAM3:
+    prefix: "VAR_SOUNDPARAM3"
+    body: "VAR_SOUNDPARAM3$1"
+  VAR_SOUNDRESULT:
+    prefix: "VAR_SOUNDRESULT"
+    body: "VAR_SOUNDRESULT$1"
+  VAR_TALK_ACTOR:
+    prefix: "VAR_TALK_ACTOR"
+    body: "VAR_TALK_ACTOR$1"
+  VAR_TALKSTOP_KEY:
+    prefix: "VAR_TALKSTOP_KEY"
+    body: "VAR_TALKSTOP_KEY$1"
+  VAR_TIMEDATE_DAY:
+    prefix: "VAR_TIMEDATE_DAY"
+    body: "VAR_TIMEDATE_DAY$1"
+  VAR_TIMEDATE_HOUR:
+    prefix: "VAR_TIMEDATE_HOUR"
+    body: "VAR_TIMEDATE_HOUR$1"
+  VAR_TIMEDATE_MINUTE:
+    prefix: "VAR_TIMEDATE_MINUTE"
+    body: "VAR_TIMEDATE_MINUTE$1"
+  VAR_TIMEDATE_MONTH:
+    prefix: "VAR_TIMEDATE_MONTH"
+    body: "VAR_TIMEDATE_MONTH$1"
+  VAR_TIMEDATE_YEAR:
+    prefix: "VAR_TIMEDATE_YEAR"
+    body: "VAR_TIMEDATE_YEAR$1"
+  VAR_TIMER:
+    prefix: "VAR_TIMER"
+    body: "VAR_TIMER$1"
+  VAR_TIMER_NEXT:
+    prefix: "VAR_TIMER_NEXT"
+    body: "VAR_TIMER_NEXT$1"
+  VAR_TMR_1:
+    prefix: "VAR_TMR_1"
+    body: "VAR_TMR_1$1"
+  VAR_TMR_2:
+    prefix: "VAR_TMR_2"
+    body: "VAR_TMR_2$1"
+  VAR_TMR_3:
+    prefix: "VAR_TMR_3"
+    body: "VAR_TMR_3$1"
+  VAR_TMR_4:
+    prefix: "VAR_TMR_4"
+    body: "VAR_TMR_4$1"
+  VAR_USERPUT:
+    prefix: "VAR_USERPUT"
+    body: "VAR_USERPUT$1"
+  VAR_V6_EMSSPACE:
+    prefix: "VAR_V6_EMSSPACE"
+    body: "VAR_V6_EMSSPACE$1"
+  VAR_V6_SOUNDMODE:
+    prefix: "VAR_V6_SOUNDMODE"
+    body: "VAR_V6_SOUNDMODE$1"
+  VAR_VERB_SCRIPT:
+    prefix: "VAR_VERB_SCRIPT"
+    body: "VAR_VERB_SCRIPT$1"
+  VAR_VIDEO_PERFORMANCE:
+    prefix: "VAR_VIDEO_PERFORMANCE"
+    body: "VAR_VIDEO_PERFORMANCE$1"
+  VAR_VIDEOMODE:
+    prefix: "VAR_VIDEOMODE"
+    body: "VAR_VIDEOMODE$1"
+  VAR_VIRT_MOUSE_X:
+    prefix: "VAR_VIRT_MOUSE_X"
+    body: "VAR_VIRT_MOUSE_X$1"
+  VAR_VIRT_MOUSE_Y:
+    prefix: "VAR_VIRT_MOUSE_Y"
+    body: "VAR_VIRT_MOUSE_Y$1"
+  VAR_WALKTO_OBJ:
+    prefix: "VAR_WALKTO_OBJ"
+    body: "VAR_WALKTO_OBJ$1"

@@ -1,59 +1,59 @@
-'.source.c.scumm':
-  'anim':
-    'prefix': 'anim'
-    'body': """
+".source.c.scumm":
+  anim:
+    prefix: "anim"
+    body: '''
       anim ${1:name} {
-          ${2:// your code here}
+      	${2:// your code here}
       }$3
-    """
-  'cutscene':
-    'prefix': 'cutscene'
-    'body': """
+    '''
+  cutscene:
+    prefix: "cutscene"
+    body: '''
       cutscene ( ${1:/* args */} ) {
-          ${2:// your code here}
+      	${2:// your code here}
       }$3
-    """
-  'limb':
-    'prefix': 'limb'
-    'body': """
+    '''
+  limb:
+    prefix: "limb"
+    body: '''
       limb ${1:name} {
-          ${2:// picture_list}
+      	${2:// picture_list}
       }$3
-    """
-  'move':
-    'prefix': 'move'
-    'body': 'move = { ${1:x}, ${2:y} }'
-  'object':
-    'prefix': 'object'
-    'body': """
+    '''
+  move:
+    prefix: "move"
+    body: "move = { ${1:x}, ${2:y} }"
+  object:
+    prefix: "object"
+    body: '''
       object ${1:name} {
-          ${2:// object_properties}
+      	${2:// object_properties}
       }$3
-    """
-  'palette':
-    'prefix': 'palette'
-    'body': 'palette ( ${1:INTLIST} );'
-  'picture':
-    'prefix': 'picture'
-    'body': """
+    '''
+  palette:
+    prefix: "palette"
+    body: "palette ( ${1:INTLIST} );"
+  picture:
+    prefix: "picture"
+    body: '''
       picture ${1:name} {
-          ${2:// picture_params}
+      	${2:// picture_params}
       }$3
-    """
-  'position':
-    'prefix': 'position'
-    'body': 'position = { ${1:x}, ${2:y} }'
-  'room':
-    'prefix': 'room'
-    'body': """
+    '''
+  position:
+    prefix: "position"
+    body: "position = { ${1:x}, ${2:y} }"
+  room:
+    prefix: "room"
+    body: '''
       room ${1:name} {
-          ${2:// room_declarations}
+      	${2:// room_declarations}
       }$3
-    """
-  'script':
-    'prefix': 'script'
-    'body': """
+    '''
+  script:
+    prefix: "script"
+    body: '''
       ${1:local|global} script ${2:name}${3:( ${4:/* args */} )} {
-          ${5:// your code here}
+      	${5:// your code here}
       }$6
-    """
+    '''

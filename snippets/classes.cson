@@ -1,22 +1,22 @@
 ".source.c.scumm":
-	ClassAlwaysClip:
-		prefix: "ClassAlwaysClip"
-		body: "ClassAlwaysClip$1"
-	ClassIgnoreBoxes:
-		prefix: "ClassIgnoreBoxes"
-		body: "ClassIgnoreBoxes$1"
-	ClassNeverClip:
-		prefix: "ClassNeverClip"
-		body: "ClassNeverClip$1"
-	ClassPlayer:
-		prefix: "ClassPlayer"
-		body: "ClassPlayer$1"
-	ClassUntouchable:
-		prefix: "ClassUntouchable"
-		body: "ClassUntouchable$1"
-	ClassXFlip:
-		prefix: "ClassXFlip"
-		body: "ClassXFlip$1"
-	ClassYFlip:
-		prefix: "ClassYFlip"
-		body: "ClassYFlip$1"
+  ClassAlwaysClip:
+    prefix: "ClassAlwaysClip"
+    body: "ClassAlwaysClip$1"
+  ClassIgnoreBoxes:
+    prefix: "ClassIgnoreBoxes"
+    body: "ClassIgnoreBoxes$1"
+  ClassNeverClip:
+    prefix: "ClassNeverClip"
+    body: "ClassNeverClip$1"
+  ClassPlayer:
+    prefix: "ClassPlayer"
+    body: "ClassPlayer$1"
+  ClassUntouchable:
+    prefix: "ClassUntouchable"
+    body: "ClassUntouchable$1"
+  ClassXFlip:
+    prefix: "ClassXFlip"
+    body: "ClassXFlip$1"
+  ClassYFlip:
+    prefix: "ClassYFlip"
+    body: "ClassYFlip$1"
