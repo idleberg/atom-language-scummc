@@ -1,7 +1,7 @@
 ".source.c.scumm":
   "abs()":
     prefix: "abs()"
-    body: "abs( ${1:val} )$1"
+    body: "abs( ${1:val} )$2"
   "actorFace()":
     prefix: "actorFace()"
     body: "actorFace( ${1:actor}, ${2:obj} )$3"
@@ -49,7 +49,7 @@
     body: "cursorOn()$1"
   "delay()":
     prefix: "delay()"
-    body: "delay( ${1:ticks} )$1"
+    body: "delay( ${1:ticks} )$2"
   "delayMinutes()":
     prefix: "delayMinutes()"
     body: "delayMinutes( ${1:min} )$2"
@@ -226,7 +226,7 @@
     body: "isActorInBox( ${1:actor}, ${2:box} )$3"
   "isActorMoving()":
     prefix: "isActorMoving()"
-    body: "isActorMoving( ${1:actor} )$1"
+    body: "isActorMoving( ${1:actor} )$2"
   "isAnyOf()":
     prefix: "isAnyOf()"
     body: "isAnyOf( ${1:val}, ${2:[ ${3:list} ]} )$4"
@@ -478,10 +478,10 @@
     body: "setCharsetColors( ${1:[ ${2:colors} ]} )$3"
   "setCurrentActor()":
     prefix: "setCurrentActor()"
-    body: "setCurrentActor( ${1:actor} )$1"
+    body: "setCurrentActor( ${1:actor} )$2"
   "setCurrentVerb()":
     prefix: "setCurrentVerb()"
-    body: "setCurrentVerb( ${1:verb} )$1"
+    body: "setCurrentVerb( ${1:verb} )$2"
   "setCursorHotspot()":
     prefix: "setCursorHotspot()"
     body: "setCursorHotspot( ${1:x}, ${2:y} )$3"
