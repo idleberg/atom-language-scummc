@@ -14,7 +14,7 @@ Atom language support for [ScummC](https://github.com/AlbanBedel/scummc) functio
 
 * Install package `apm install language-scummc` (or use the GUI)
 
-### GitHub
+### Using Git
 
 1. Change directory `cd ~/.atom/packages/`
 2. Clone repository `git clone https://github.com/idleberg/atom-language-scummc language-scummc`
