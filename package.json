@@ -1,6 +1,6 @@
 {
   "name": "language-scummc",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Atom language support for ScummC",
   "keywords": [
     "scumm",
