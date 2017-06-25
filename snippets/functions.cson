@@ -532,7 +532,7 @@
     body: "setScreen( ${1:top}, ${2:bottom} )$3"
   "setShadowPalette()":
     prefix: "setShadowPalette()"
-    body: "setShadowPalette( ${1.startColor}, ${2:endColor}, ${3:rScale}, ${4:gScale}, ${5:bScale} )$6"
+    body: "setShadowPalette( ${1:startColor}, ${2:endColor}, ${3:rScale}, ${4:gScale}, ${5:bScale} )$6"
   "setShakeOff()":
     prefix: "setShakeOff()"
     body: "setShakeOff()$1"
